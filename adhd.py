@@ -234,9 +234,9 @@ elif app_mode == 'Prediction':
     with col2:
         st.markdown("<br><br><br>", unsafe_allow_html=True)
         st.markdown("""
-        - Category <span style="color:red; font-weight:bold;">'Highly Likely'</span>: adhd_total score 24 or greater 24.
-        - Category <span style="color:orange; font-weight:bold;">'Likely'</span>:adhd_total score between 17 and 23.
         - Category <span style="color:green; font-weight:bold;">'Unlikely'</span>adhd_total score between 0 and 16.
+        - Category <span style="color:orange; font-weight:bold;">'Likely'</span>:adhd_total score between 17 and 23.
+        - Category <span style="color:red; font-weight:bold;">'Highly Likely'</span>: adhd_total score 24 or greater 24.
         """, unsafe_allow_html=True)
 
 
