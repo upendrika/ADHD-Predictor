@@ -165,7 +165,11 @@ elif app_mode == 'Prediction':
     with col1:
         
         age = st.number_input("Age", min_value=0, max_value=100, step=1)
-        sex = st.radio("Sex", options=[0, 1], format_func=lambda x: "Female" if x == 0 else "Male")
+        sex = st.radio(
+        "Sex", 
+        options=[0, 1, 2], 
+        format_func=lambda x: "Female" if x == 0 else "Male" if x == 1 else "Other"
+        )
         previous_state = st.radio("Previous State (0=No, 1=Yes)", options=[0, 1])
         depression_total = st.number_input("Depression Total", min_value=0)
         alcohol_total = st.number_input("Alcohol Total", min_value=0)
