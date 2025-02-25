@@ -66,7 +66,7 @@ Discover the motivation behind this application, including its connection to a *
 
 3. Run the app locally:
    ```bash
-   streamlit run adhd.py
+   streamlit run 1_Home.py
 
 ### ✨ Stay Connected  
 For any questions or feedback, feel free to reach out to us at:  
