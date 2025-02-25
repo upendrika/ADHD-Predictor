@@ -1,1 +1,6 @@
+[theme]
+primaryColor = "#ff0000"  # red for buttons/active elements
+backgroundColor = "#F5F5F5"  # Light gray background
+secondaryBackgroundColor = "#add8e6"  # Sidebar background color (Dark blue-gray)
+textColor = "#000000"  # Black text for main page content
 
