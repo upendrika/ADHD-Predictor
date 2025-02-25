@@ -190,13 +190,13 @@ def show_prediction():
 
         if category == "Highly Likely":
             st.error("High probability of ADHD symptoms detected. Consult a professional.")
-            st.image("Highly Likely.png", caption="Take Action for Better Mental Health", use_column_width=True)
+            st.image("Highly Likely.png", caption="Take Action for Better Mental Health", use_container_width=True)
         elif category == "Likely":
             st.warning("Moderate probability of ADHD symptoms detected. Stay cautious and monitor regularly.")
-            st.image("likely.png", caption="Stay Mindful and Seek Guidance", use_column_width=True)
+            st.image("likely.png", caption="Stay Mindful and Seek Guidance", use_container_width=True)
         else:
             st.success("Unlikely to have ADHD symptoms. Keep maintaining a healthy routine.")
-            st.image("Unlikely.png", caption="Keep Up the Good Work!", use_column_width=True)
+            st.image("Unlikely.png", caption="Keep Up the Good Work!", use_container_width=True)
 
     
         st.markdown("<br>", unsafe_allow_html=True)
